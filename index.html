@@ -4,151 +4,204 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Лыско Даниил Олегович - Портфолио</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>Лыско Даниил Олегович</h1>
-      <p class="subtitle">Студент РГПУ им.А.И.Герцена, факультет ИИТиТО ИВТ(1)/19</p>
+  <div class="container mt-5">
+    <header class="text-center">
+      <h1 class="display-4">Лыско Даниил Олегович</h1>
+      <p class="lead">Студент РГПУ им.А.И.Герцена, факультет ИИТиТО ИВТ(1)/19</p>
     </header>
 
     <main>
       <section>
-        <h2>Список дисциплин</h2>
+        <h2 class="my-4">Список дисциплин</h2>
 
-        <details>
-          <summary>1 семестр</summary>
-          <ul>
-            <li><a href="ссылка_на_дисциплину1_1">Иностранный язык</a></li>
-            <li><a href="ссылка_на_дисциплину1_2">БЖД</a></li>
-            <li><a href="ссылка_на_дисциплину1_3">Дискретная математика</a></li>
-            <li><a href="ссылка_на_дисциплину1_3">Информатика</a></li>
-            <li><a href="ссылка_на_дисциплину1_3">ИТ в математике</a></li>
-            <li><a href="ссылка_на_дисциплину1_3">ИТ в физике</a></li>
-            <li><a href="ссылка_на_дисциплину1_3">Линейная алгебра и теория матриц</a></li>
-            <li><a href="ссылка_на_дисциплину1_3">Физика</a></li>
-            <li><a href="ссылка_на_дисциплину1_3">Экономика</a></li>
-          </ul>
-        </details>
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  1 семестр
+                </button>
+              </h2>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                <ul>
+                  <li><a href="https://drive.google.com/drive/folders/1KMDiEB3tx3NBzp06WA1gU8C0C4XB6-uL">Дискретная математика</a></li>
+                  <li><a href="https://drive.google.com/drive/folders/1CKIytAnNlf7u9yME4y9n_6AImiLUQcdT">Линейная алгебра и теория матриц</a></li>
+                  <li><a href="https://drive.google.com/drive/folders/1CKIytAnNlf7u9yME4y9n_6AImiLUQcdT">Информационные технологии в математике</a></li>                </ul>
+              </div>
+            </div>
+          </div>
 
-        <details>
-          <summary>2 семестр</summary>
-          <ul>
-            <li><a href="ссылка_на_дисциплину1_1">Алгоритмы и анализ сложности</a></li>
-            <li><a href="ссылка_на_дисциплину1_2">Аналитическая геометрия</a></li>
-            <li><a href="ссылка_на_дисциплину1_3">Иностранный язык</a></li>
-            <li><a href="ссылка_на_дисциплину1_3">Информационне технологии</a></li>
-            <li><a href="ссылка_на_дисциплину1_3">История</a></li>
-            <li><a href="ссылка_на_дисциплину1_3">Линейная алгебра и теория матриц</a></li>
-            <li><a href="ссылка_на_дисциплину1_3">Математическая логика</a></li>
-            <li><a href="ссылка_на_дисциплину1_3">Математическй анализ</a></li>
-            <li><a href="ссылка_на_дисциплину1_3">Основы теории вероятности</a></li>
-            <li><a href="ссылка_на_дисциплину1_3">Практика</a></li>
-            <li><a href="ссылка_на_дисциплину1_3">Программирование</a></li>
-            <li><a href="ссылка_на_дисциплину1_3">Физика</a></li>
-          </ul>
-        </details>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  2 семестр
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                <ul>
+                  <li><a href="https://drive.google.com/drive/folders/1Acg2bY6TiIzNAisEdJDlYEMB9vVInTJN">Аналитическая геометрия</a></li>
+                  <li><a href="https://drive.google.com/drive/folders/1CKIytAnNlf7u9yME4y9n_6AImiLUQcdT">Линейная алгебра и теория матриц</a></li>
+                  <li><a href="https://drive.google.com/drive/folders/1eeyg9vWfrLlURAXA2Hq7kTMtJ6hW5UVH">Основы теории вероятности</a></li>
+                  <li><a href="https://github.com/lywko/progPy">Программирование</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
-        <details>
-            <summary>3 семестр</summary>
-            <ul>
-              <li><a href="ссылка_на_дисциплину1_1">Анализ данных</a></li>
-              <li><a href="ссылка_на_дисциплину1_2">Иностранный язык</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Веб-проектирование и веб-языки</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Вычислительная математика</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Интегралы и дифферинцальные уравнения</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Практика</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Программирование</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Серверные веб-технологии</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Физика</a></li>
-            </ul>
-        </details>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  3 семестр
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                <ul>
+                  <li><a href="https://drive.google.com/drive/folders/1kk2BOSNoimak2FNvgf4Vq9NhsQcEv6Ha">Интегралы и дифференциальные уравнения</a></li>
+                  <li><a href="https://github.com/lywko/progPy">Программирование</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
-        <details>
-            <summary>4 семестр</summary>
-            <ul>
-              <li><a href="ссылка_на_дисциплину1_1">Иностранный язык</a></li>
-              <li><a href="ссылка_на_дисциплину1_2">Базы данных</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Вычислительная техника</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Интегралы и дифференциальные уравнения</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">ИТ в решении задач оптимизации</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Операционные системы</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Основы компьютерной алгебры</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Программирование</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Серверные веб-технологии</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Технологии компьютерного моделирования</a></li>
-            </ul>
-        </details>
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  4 семестр
+                </button>
+              </h2>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+              <div class="card-body">
+                <ul>
+                  <li><a href="https://drive.google.com/drive/folders/1VHmpEM0XEHhsBfRm5_TW9LUKbi1FvMzH">Базы данных</a></li>
+                  <li><a href="https://drive.google.com/drive/folders/1kk2BOSNoimak2FNvgf4Vq9NhsQcEv6Ha">Интегралы и дифференциальные уравнения</a></li>
+                  <li><a href="https://github.com/lywko/progPy">Программирование</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
-        <details>
-            <summary>5 семестр</summary>
-            <ul>
-              <li><a href="ссылка_на_дисциплину1_1">Интегрированные издательские системы</a></li>
-              <li><a href="ссылка_на_дисциплину1_2">ИТ в изучении иностранных языков</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">ИТ-менеджмент</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Компьютерная графика</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Начертательная геометрия</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Основы бизнес-информатики</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Прикладные информационные системы</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Программирование</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Сети и телекоммуникации</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Техника и технологии представления и публикации информации</a></li>
-            </ul>
-        </details>
+          <div class="card">
+            <div class="card-header" id="headingFive">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  5 семестр
+                </button>
+              </h2>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+              <div class="card-body">
+                <ul>
 
-        <details>
-            <summary>6 семестр</summary>
-            <ul>
-              <li><a href="ссылка_на_дисциплину1_1">Иностранный язык</a></li>
-              <li><a href="ссылка_на_дисциплину1_2">Визуализация данных и инфографика</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Защита информации</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Инженерная графика</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Информационные технологии и системы бизнес-аналитики</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Основы корпоративного электронного обучения</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Основы электронного управления</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Прикладные информаицонные технологии</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Программирование</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Электроника</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Электротехника</a></li>
-            </ul>
-        </details>
+                </ul>
+              </div>
+            </div>
+          </div>
 
-        <details>
-            <summary>7 семестр</summary>
-            <ul>
-              <li><a href="ссылка_на_дисциплину1_1">Иностранный язык</a></li>
-              <li><a href="ссылка_на_дисциплину1_2">Инженерия знаний</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Информационные средства и технологии инежерных и научных расчетов</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Программирование</a></li>
-            </ul>
-        </details>
+          <div class="card">
+            <div class="card-header" id="headingSix">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  6 семестр
+                </button>
+              </h2>
+            </div>
+            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+              <div class="card-body">
+                <ul>
+                </ul>
+              </div>
+            </div>
+          </div>
 
-        <details>
-            <summary>8 семестр</summary>
-            <ul>
-              <li><a href="ссылка_на_дисциплину1_1">Информационные технологии оценки персонала</a></li>
-              <li><a href="ссылка_на_дисциплину1_2">ИТ-рекрутмент</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Лингвистические основы янглоязычной коммуникации</a></li>
-              <li><a href="ссылка_на_дисциплину1_3">Мировые информационные ресурсы и цифровые библиотеки</a></li>
-            </ul>
-        </details>
+          <div class="card">
+            <div class="card-header" id="headingSeven">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                  7 семестр
+                </button>
+              </h2>
+            </div>
+            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+              <div class="card-body">
+                <ul>
+                  <li><a href="https://drive.google.com/drive/folders/1ifnZhnI-aKJeH2G-HqCVxjP00R_1RAj9">Иностранный язык (для профессионального общения)</a></li>
+                  <li><a href="https://drive.google.com/drive/folders/1V42YuTU9Pho0-vtP3V30OD6LnivawAw5">Информационные технологии оценки персонала</a></li>
+                  <li><a href="ссылка_на_дисциплину7_3">ИТ-рекрутмент</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
-        <!-- Повторите для всех семестров -->
+          <div class="card">
+            <div class="card-header" id="headingEight">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                  8 семестр
+                </button>
+              </h2>
+            </div>
+            <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+              <div class="card-body">
+                <ul>
+                  <li><a href="https://drive.google.com/drive/folders/1ifnZhnI-aKJeH2G-HqCVxjP00R_1RAj9">Иностранный язык (для профессионального общения)</a></li>
+                  <li><a href="https://drive.google.com/drive/folders/1V42YuTU9Pho0-vtP3V30OD6LnivawAw5">Информационные технологии оценки персонала</a></li>
+                  <li><a href="https://drive.google.com/drive/folders/1JeG_xfx4E3krDdDM0lPlvaHI0nJRWGVJ">ИТ-рекрутмент</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
-        <details>
-          <summary>Личные достижения</summary>
-          <ul>
-            <li><a href="ссылка_на_достижение1">Достижение 1</a></li>
-            <li><a href="ссылка_на_достижение2">Достижение 2</a></li>
-            <li><a href="ссылка_на_достижение3">Достижение 3</a></li>
-          </ul>
-        </details>
+          <div class="card">
+            <div class="card-header" id="headingAchievements">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseAchievements" aria-expanded="true" aria-controls="collapseAchievements">
+                  Личные достижения
+                </button>
+              </h2>
+            </div>
+            <div id="collapseAchievements" class="collapse" aria-labelledby="headingAchievements" data-parent="#accordionExample">
+              <div class="card-body">
+                <h4>Главный инженер по разработке</h4>
+                <p>ПАО Сбербанк, отдел Лаборатория платежей и переводов.</p>
+                <h4>Стек технологий:</h4>
+                <ul>
+                  <li>Java</li>
+                  <li>Spring</li>
+                  <li>Oracle</li>
+                  <li>PostgreSQL</li>
+                  <li>Kafka</li>
+                  <li>Hibernate</li>
+                  <li>Docker</li>
+                  <!-- Дополнительные технологии -->
+                  <!-- <li>Технология 1</li>
+                  <li>Технология 2</li>
+                  <li>Технология 3</li> -->
+                </ul>
+              </div>
+            </div>
+          </div>
       </section>
     </main>
 
-    <footer>
+    <footer class="text-center mt-5">
       <p>&copy; 2024 Лыско Даниил Олегович. Все права защищены.</p>
     </footer>
   </div>
